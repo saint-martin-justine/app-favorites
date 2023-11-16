@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Présentation</title>
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="Duolingo.html">Duolingo</a></li>
+                    <li><a href="Instagram.html">Instagram</a></li>
+                    <li><a href="PokémonGo.html">Pokémon Go</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"></div>
+        </div>
+    </header>
+    <main>
+        <h1>Explorez mes top 3 des applications mobiles !</h1>
+        <div class="list-card">
+            <div class="pokemon card">
+                <img src="img/Pokémon_GO_logo.svg.png" alt="">
+                <h2>Pokémon Go</h2>
+                <p>
+                    Jouez à Pokémon GO avec vos amis comme jamais auparavant. Grâce au Jeu en équipe, les
+                    Dresseur·euse·s
+                    peuvent partir à l’aventure et relever des défis ensemble, le tout dans une expérience de jeu
+                    partagée
+                    unique !
+                </p>
+            </div>
+            <div class="instagram card">
+                <img src="img/Instagram.svg" alt="">
+                <h2>Instagram</h2>
+                <p>
+                 Contactez vos ami(e)s, partagez vos exploits ou découvrez les dernières infos d’autres personnes à travers le monde.
+                 Explorez notre communauté, où vous vous sentirez libre d’être vous-même et de partager tout ce que vous voulez, de vos moments quotidiens à vos moments forts.
+
+                </p>
+            </div>
+            <div class="duolingo card">
+                <img src="img/icon (1).svg" alt="">
+                <h2>Duolingo</h2>
+                <p>
+                 Apprends une langue avec l’appli d’enseignement la plus téléchargée au monde ! Duolingo est une appli fun et gratuite pour apprendre + de 40 langues avec des leçons courtes et interactives.
+                 Entraîne-toi à parler, écouter, lire et écrire la langue pour enrichir ton vocabulaire et te familiariser avec les points de grammaire.
+
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div class="social">
+                <a href="https://fr.duolingo.com"><img src="img/icon (1).svg" height="40px" alt=""></a>
+                <a href="https://www.instagram.com"><img src="img/Instagram.svg" height="40px" alt=""></a>
+                <a href="https://pokemongolive.com/fr/"><img src="img/Pokémon_GO_logo.svg.png" height="40px" alt=""></a>
+
+            </div>
+            <div>
+                © Copyright : Justine Saint-martin
+
+            </div>
+        </footer>
+
+    </main>
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+        }</script>
+</body>
+
+</html>

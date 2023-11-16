@@ -1,0 +1,168 @@
+body {
+    margin: 0px 32px;
+    background-color: rgb(31, 31, 94);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo>img {
+    width: 90px;
+}
+
+header {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 32px;
+    background-color: rgb(31, 31, 94);
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 8px;
+
+}
+
+nav>a:hover {
+    border-color: white;
+    transition: 500ms;
+}
+
+.annonce {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    object-fit: contain;
+    overflow: clip;
+    border-style: solid;
+    border-color: white;
+    border-width: 12px;
+    height: 70vh;
+}
+
+.multicolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(270deg, #EABF37 0%, #9ADE2C 33.99%, #76D0FF 63.19%, #E880B7 100.42%);
+    margin-top: 40px;
+}
+
+.multicolor>div {
+    max-width: 600px;
+}
+
+.multicolor>img {
+    width: 300px;
+}
+
+.event-haut {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 20px;
+}
+
+.event-haut>img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.pokecontenair>h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 30px 0px;
+    font-size: 32px;
+}
+
+.pokecontenair {
+    background-color: white;
+}
+
+.event-bas {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding-bottom: 64px;
+}
+
+.event-bas>img {
+    width: 325px;
+    border-radius: 10px;
+
+}
+
+.pub {
+    display: flex;
+    background-image: url(/img/pub1.jpg);
+    background-position: right;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.flottant{
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 20%;
+    color: white;
+}
+.fond{
+ background-image:url(/img/pub2.jpg) ;  
+ background-repeat: no-repeat;
+background-size: contain;
+height: 97.5vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.fond>h2{
+    padding-top: 64px;
+    font-size: 32px;
+    margin-bottom: 0px;
+} 
+.fond>p{
+    width: 500px;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background: linear-gradient(60deg, #A4E28C 0% , #47CC9D 20%, #47CC9D 85% , #A4E28C 100%);
+
+}
+footer>a>img{
+    width:300px ;
+}
+.telecharge>a>img{
+    width: 200px;
+}
+.telecharge{
+    display: flex;
+    align-items: center;
+}
+.fin>h2{
+    width: 300px;
+    color: white;
+    margin: 0px;
+    padding-top: 64px;
+}
+
+
+
+    

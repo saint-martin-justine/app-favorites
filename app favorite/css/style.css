@@ -1,0 +1,173 @@
+:root{
+        --accent: #98526C
+        --primaire:#A9607B
+        --secondaire: #FBF2E6
+        --text: #0E1B16
+
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef0f2;
+    margin: 0px;
+}
+
+#menu {
+    z-index: 2;
+}
+
+#menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #98526c;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav {
+    transition: 0.3s ease;
+    display: none;
+}
+
+.nav ul {
+    padding: 0 22px;
+}
+
+.nav li {
+    list-style: none;
+    padding: 12px 0;
+}
+
+.nav li a {
+    color: rgb(16, 15, 15);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    font-weight: bold;
+}
+
+.menu-bg,
+#menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #98526c, #a9607b);
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.change {
+    display: block;
+}
+
+.change .bar {
+    background-color: white;
+}
+
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%, -30%);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 60px;
+    font-family:monospace
+}
+
+.card>img {
+    height: 55px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(200deg, #FBF2E6,#d8d1c7);
+    width: 350px;
+    height: 450px;
+    border-radius: 32px;
+    box-shadow: 8px 8px 16px rgb(169, 169, 169);
+    text-align: center;
+}
+.list-card{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    
+}
+.instagram{
+    margin-top: 300px;
+}
+footer{
+    margin-top: 60px;
+    padding: 20px;
+    color: white;
+    background-color: #98526c;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    transition: 500ms;
+  }
+.duolingo:hover{
+    scale: 102%;
+    transition: 500ms;
+    background: linear-gradient(300deg, rgb(48, 209, 33),#e8e8e8)
+}
+.pokemon:hover{
+    scale: 102%;
+    transition: 500ms;
+    background: linear-gradient(300deg, #88cb6d 0% , #268b68 100%);
+}
+.instagram:hover{
+    scale: 102%;
+    transition: 500ms;
+    background: linear-gradient(300deg, rgb(162, 33, 209),rgba(233, 165, 8, 0.867))
+}
+
